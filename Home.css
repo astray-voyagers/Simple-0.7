@@ -1,0 +1,151 @@
+body{
+  background-color: #1d1d1d;
+  height: 225vh;
+  font-family: segoe ui;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  padding: 14px 16px;
+  margin-left: -8px;
+  z-index: 10;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #2d89ef;
+  color: white;
+}
+
+.topnav img{
+  left: 10px;
+  margin-top: -40px;
+  position: absolute;
+  float: left;
+  height: 90px;
+}
+
+.Welcome{
+  float: left;
+  margin-left: -8px;
+  margin-top: 5vh;
+  height: 90vh;
+  width: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #2d89ef;
+  z-index: 2;
+  position: absolute;
+}
+
+.Welcome h1{
+  top: 5%;
+  left: 20%;
+  width: 70%;
+  color: white;
+  z-index: 11;
+  font-size: 60px;
+  position: absolute;
+}
+
+.Welcome p{
+  top: 15%;
+  left: 20%;
+  width: 70%;
+  color: white;
+  z-index: 11;
+  font-size: 60px;
+  position: absolute;
+}
+
+.slentedbg{
+  top: 500px;
+  margin-left: -8px;
+  height: 60vh;
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #333333;
+  z-index: 1;
+  position: absolute;
+}
+
+.slentedbox{
+  top: 505px;
+  margin-left: -8px;
+  height: 58vh;
+  width: 100%;
+  -webkit-clip-path: polygon(100% 0, 100% 85%, 0 100%, 0 20%);
+  clip-path: polygon(100% 0, 100% 85%, 0 100%, 0 20%);
+  background-color: #999999;
+  z-index: 3;
+  position: absolute;
+}
+
+.Team{
+  top: 1000px;
+  right: 10%;
+  height: 60vh;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: absolute;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.Team p{
+  margin-top: -60px;
+  color: white;
+  font-size: 30px;
+}
+
+.Member{
+  font-size: 18px;
+  vertical-align: middle;
+  display: inline-block;
+  height: 50vh;
+  width: 20%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 10px;
+  margin-top: 0px;
+  background-color: #999999;
+}
+
+.bottcred{
+  color: white;
+  background-color: #333;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  display: inline;
+  padding: 14px 16px;
+  margin-left: -8px;
+  z-index: 10;
+}
+
+.bottcred a{
+  color: #2d89ef;
+  text-decoration: none;
+}
